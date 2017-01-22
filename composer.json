@@ -1,0 +1,12 @@
+{
+    "name": "netix/torrent-streaming",
+    "description": "Netix is an online video streaming wizard that allows you to stream entire movies from a torrent file as small as a few kilobytes.",
+    "authors": [
+        {
+            "name": "Netix",
+            "email": "contact.netix@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {}
+}
