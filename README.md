@@ -1,5 +1,4 @@
-![Netix](http://www.netixsoft.com/images/Slides/imgSlider01.png) Netix
-=============
+![Netix](http://www.netixsoft.com/images/Slides/imgSlider01.png) 
 
 * * *
 
