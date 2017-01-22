@@ -26,7 +26,7 @@
 }
 
 #padl_result {
-    background: #fff url(images/alert.gif) no-repeat left center;
+    background: #fff url(../images/alert.gif) no-repeat left center;
     font-family: Helvetica, sans-serif;
     font-size: 50px;
     color: #5792c3;
