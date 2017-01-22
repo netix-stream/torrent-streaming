@@ -41,10 +41,7 @@ switch (isset($_GET["page"])?$_GET["page"]:""){
         break; 
  
         default:
-        		include 'pages/main.php';
+        		//include 'pages/main.php';
 				$smarty->display('index.html');
         break;
-}  
- 
-
-
+}
