@@ -8,6 +8,7 @@
 $path = dirname(__FILE__); 
 
 require $path.'/libs/startup.php';
+// Change if you want!
 $smarty->assign('domaine','http://'.$_SERVER['SERVER_NAME']);
 
 switch (isset($_GET["page"])?$_GET["page"]:""){
