@@ -1,0 +1,15 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/index\.
+RewriteCond %{REQUEST_URI} !^/$
+
+
+RewriteRule ^([^/]*)$ /?page=$1 [L,QSA]
+RewriteRule ^([^-]*)/([^-]*)/$ /?page=$1&act=$2 [QSA,L]
+ 
+RewriteRule ^upload/([^/]*)$ /?page=upload&act=$1 [L]
+RewriteRule ^stream/([^/]*)$ /?page=stream&hash=$1 [L]
+RewriteRule ^stream/stop/([^/]*)$ /?page=stream&stop=$1 [L]
